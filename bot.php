@@ -17,7 +17,7 @@ if ( sizeof($request_array['events']) > 0 ) {
 
     foreach ($request_array['events'] as $event) {
 
-        $reply_message = '';
+        $reply_message = 'Hi';
         $reply_token = $event['replyToken'];
 
         $text = $event['message']['text'];
